@@ -1,4 +1,3 @@
-import numpy as np
 #base ratios - all values will be per prod and also base units per prod (in per second values)
 #iron/copper/stone brick = 0, steel = 1
 def furnacespermaterial(material, unitspersecond):
