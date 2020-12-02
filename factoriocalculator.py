@@ -171,7 +171,7 @@ while True:
             materialname = input("I don't know that material... please input again. ")
     prodno = int(input("How many builders do you want? (or 0 if you want the materials for x per second) "))
     if prodno == 0:
-        psec = int(input("How many per second? "))
+        psec = float(input("How many per second? "))
         prodno = psec/materialinfo[matid][0]
     listmaterialsforprod(matid, prodno, 0)
     print("\n")
